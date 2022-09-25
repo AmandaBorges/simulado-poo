@@ -2,7 +2,47 @@ import java.util.Scanner;
 
 public class Prova {
 
-  private Aluno alunoCanditado;
+    public Aluno getAlunoCanditado() {
+        return alunoCanditado;
+    }
+
+    public void setAlunoCanditado(Aluno alunoCanditado) {
+        this.alunoCanditado = alunoCanditado;
+    }
+
+    public Questao getQ1() {
+        return q1;
+    }
+
+    public void setQ1(Questao q1) {
+        this.q1 = q1;
+    }
+
+    public Questao getQ2() {
+        return q2;
+    }
+
+    public void setQ2(Questao q2) {
+        this.q2 = q2;
+    }
+
+    public Questao getQ3() {
+        return q3;
+    }
+
+    public void setQ3(Questao q3) {
+        this.q3 = q3;
+    }
+
+    public Questao getQ4() {
+        return q4;
+    }
+
+    public void setQ4(Questao q4) {
+        this.q4 = q4;
+    }
+
+    private Aluno alunoCanditado;
   private Questao q1, q2, q3, q4;
   private int  resposta01, resposta02, resposta03, resposta04;
   private  int nota;
@@ -52,6 +92,6 @@ public class Prova {
             this.nota += 2;
         }
 
-        System.out.println(this.nota);
+        System.out.println("Aluno " + this.alunoCanditado.getNome() + " tirou a nota: " + this.nota);
     }
 }

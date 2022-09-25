@@ -27,6 +27,8 @@ public class Questao {
         System.out.println(this.alternativa04);
         System.out.println("Gabarito: " + this.gabarito);
 
+        System.out.println("x x x x x x x ");
+
     }
 
     public boolean estaCorreto(int resposta){

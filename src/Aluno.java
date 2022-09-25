@@ -35,6 +35,7 @@ public class Aluno {
         System.out.println("Matricula do aluno : " + this.getMatricula());
         System.out.println("Idade do aluno : " + this.getIdade());
 
+        System.out.println("x x x x x x x ");
 
 
     }
